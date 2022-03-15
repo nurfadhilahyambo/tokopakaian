@@ -1,0 +1,185 @@
+* {
+margin: 0;
+padding: 0;
+}
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #ffffff;
+}
+a {
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}
+
+/* header */
+.header-left {
+    height: 50px;
+    width: 100%;
+    background-color: #ffffff;
+    padding: 20px 30px 0 50px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+}
+    .header-left p {
+        font-size: 25px;
+        color: #1a1919;
+    }
+    .header-left p span {
+        color: rgb(39, 39, 39);
+        font-weight: bold;
+    }
+    .menu {
+        margin-right: 100px;
+    }
+    .menu li{
+        display: inline-block;
+    }
+    .menu li a {
+        font-size: 17px;
+        color: #1a1919;
+        padding: 20px 20px 30px 20px;   
+    }
+    .menu li a:hover {
+        background-color: rgb(35, 194, 194);
+        color:aliceblue
+    }
+
+/* contents */
+.top-contents {
+    background-color: #fff;
+    padding-top: 120px;
+    padding-left: 100px;
+    display: flex;
+}
+    .top-img img {
+        width: 600px;
+        height: 400px;
+    }
+     
+    .top-text h1 {
+        font-size: 45px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .top-text p {
+        line-height: 25px;
+        padding-top: 20px;
+        margin-bottom: 60px;
+    }
+    .btn-beli a {
+        color: rgb(35, 194, 194);
+        font-size: 17px;
+        font-weight: bold;
+        padding: 20px 30px;
+        border-radius: 10px;
+        border: 2px solid rgb(35, 194, 194);
+        /* flex: 15; */
+        cursor: pointer;
+    }    
+    .btn-beli a:hover {
+        color: aliceblue;
+        background-color: rgb(35, 194, 194);
+    }
+
+/* koleksi baju */
+.katalog-baju {
+    background-color: rgb(228, 228, 231);
+    padding-left: 100px;
+    height: 430px;
+}
+    .heading h3 {
+        color: #1a1919;;
+        font-weight: bold;
+        font-size: 25px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        padding-top: 60px;
+        padding-bottom: 10px;
+    }
+    .katalog-item {
+        float: left;
+        width: 17%;
+        box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.2);
+        border-radius: 10px;
+        overflow: hidden;
+        cursor: pointer;
+        margin: 20px 10px;
+        background-color: #fff;
+        transition: all 0.2s;
+    }
+    .katalog-item:hover {
+        background-color: rgb(212, 212, 212);
+        width: 18%;
+    }
+    .katalog-item-img img {
+        height: 100%;
+        width: 100%;
+    }
+     .tittle {
+        padding: 10px 20px;
+        color: rgb(54, 54, 54);
+        font-size: 15px;
+        font-weight: bold;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .price {
+        color: rgb(54, 54, 54);
+        font-size: 15px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        padding-bottom: 30px;
+        padding-left: 20px;
+    }
+
+/* koleksi celana */
+.katalog-celana {
+    background-color: rgb(228, 228, 231);
+    padding-left: 100px;
+    height: 500px;
+}
+    .heading h3 {
+        color: #1a1919;;
+        font-weight: bold;
+        font-size: 25px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .katalog-item {
+        float: left;
+        width: 17%;
+        box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.2);
+        border-radius: 10px;
+        overflow: hidden;
+        cursor: pointer;
+        margin: 20px 10px;
+        background-color: #fff;
+    }
+    .katalog-item:hover {
+        background-color: rgb(212, 212, 212);
+    }
+    .katalog-item-img img {
+        height: 100%;
+        width: 100%;
+    }
+     .tittle {
+        padding: 10px 20px;
+        color: rgb(54, 54, 54);
+        font-size: 15px;
+        font-weight: bold;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .price {
+        color: rgb(54, 54, 54);
+        font-size: 15px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        padding-bottom: 30px;
+        padding-left: 20px;
+    }
+
+/* footer */
+.footer {
+    background-color: #464444;
+    color: #fff;
+    font-size: 15px;
+    padding: 20px 20px 20px 40px ;
+}
+    
